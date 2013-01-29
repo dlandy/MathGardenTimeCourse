@@ -15,6 +15,8 @@ source(paste(wd, "loadMathGardenDataSets.R", sep="/"))
 # Load Data:
 outcome = loadMathGardenDataSets(0.0001)
 
+log27Reduced = outcome[[1]]
+
 
 
 
