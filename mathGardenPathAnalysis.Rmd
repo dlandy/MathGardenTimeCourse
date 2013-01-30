@@ -1,12 +1,19 @@
-Title
+Path Analysis Of Math Garden Data, Mark 1
 ========================================================
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **MD** toolbar button for help on Markdown).
+This document is a first attempt to do a path analysis of the Math Garden data collected in the spring, summer, and fall of 2012.  The idea here is simply to evaluate what kind of structure we can easily glean from students; in particular, we want to evaluate the kinds of learning trajectories that are representative of successful or unsuccessful students.
 
-When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r}
-summary(cars)
+```{r "requires", echo=FALSE}
+require(plyr)
+require(ggplot2)
+
+```
+
+
+```{r "Load and Prep Data", echo=FALSE}
+wd <- "/Users/dlandy/Dropbox/Projects/Math\ Garden/"
+setwd(wd)
 ```
 
 You can also embed plots, for example:
